@@ -1,0 +1,65 @@
+* {
+  box-sizing:border-box;
+}
+
+h3 {
+  color: blue;
+}
+h3 {
+  color:red;
+}
+a {
+  color: gray;
+}
+h3.heading
+{
+  color:green;
+}
+article {
+  width: 290px;
+  height: 150px;
+  padding: 30px;
+  margin: 50px;
+  border: 1px solid red;
+  overflow-y: auto;
+}
+a {
+  width: 100px;
+  height: 30px;
+  margin: 50px;
+  border-radius: 100px;
+}
+#article-1 {
+  margin-bottom: 100px;
+}
+#article-2 {
+  margin-top: 50px;
+}
+
+.position-child-z-index {
+  width: 50px;
+  height: 100px;
+  background: purple;
+  position: absolute;
+}
+.font {
+  padding: 100px 0;
+}
+.font-size {
+  font-size: 30px;
+}
+
+.font-weight {
+font-weigh: 700;
+}
+
+.font-style {
+font-style: italic;
+}
+
+.font-variant{
+  font-variant: small-caps;
+}
+.text-shadow {
+  text-shadow: 10px 2px 5px blue;
+}

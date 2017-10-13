@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: 'Arimo', sans-serif;
+  font-size: 14px;
+  color: #161616;
+}
+
+.position-header {
+  position: relative;
+  left: 0px;
+   top: 0px;
+   width: 200px;
+   height: 30px;
+   padding-bottom: 60px;
+}
+.position-nav {
+ position: fixed;
+  left: 500px;
+  top: 20px;
+  width: 200px;
+  height: 30px;
+}
+h1 {
+  font-family: 'Ubuntu', sans-serif bolt;
+  font-size: 28px;
+  color: black;
+  font-style: oblique;
+}
+h2 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 22px;
+  color: black;
+}
+.header {
+  position:fixed;
+  top:inherit;
+  left:inherit;
+}
+
+.article1 {
+   width: 700px;
+   height: 300px;
+   padding:10px;
+   margin-bottom: 0px;
+   overflow-y: scroll;
+}
+.article2 {
+  width: 700px;
+  height: 200px;
+  padding: 30px;
+  margin-bottom: 0px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+<link href="https://fonts.googleapis.com/css?family=Arimo:400i,700&amp;subset=cyrillic" rel="stylesheet">
