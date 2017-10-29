@@ -1,3 +1,5 @@
+@import url("grid.css");
+
 * {
   box-sizing:border-box;
 }
@@ -62,4 +64,156 @@ font-style: italic;
 }
 .text-shadow {
   text-shadow: 10px 2px 5px blue;
+}
+
+
+.background-image-svg {
+  width: 300px;
+  height: 100px;
+  margin: 10px;
+  background-image: url("img/donuts.svg");
+  background-repeat: repeat;
+}
+
+.background-image-img {
+  width: 300px;
+  height: 100px;
+  margin: 10px;
+  background-image: url("img/img-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.flex-container {
+  flex-direction: row;
+display: flex;
+flex-wrap: wrap;
+align-content: space-between;
+justify-content: center;
+height: 400px;
+margin-bottom: 200px;
+margin-top: 10px;
+margin-left: 10px;
+margin-right: 10px;
+margin-bottom: 10px;
+background-color: aqua;
+border: 1px solid green;
+}
+
+.flex-element {
+
+}
+
+.flex-element-1 {
+background-color: grey;
+  width: 300px;
+  order: 3;
+}
+.flex-element-2 {
+background-color: navy;
+  width: 300px;
+  order: 2;
+}
+.flex-element-3 {
+background-color: green;
+  width: 300px;
+  order: 1;
+}
+.flex-element-4 {
+background-color: pink;
+  width: 300px;
+  order: 5;
+}
+.flex-element-5 {
+background-color:red;
+  width: 300px;
+  order: 4;
+}
+
+.background-color {
+background-color: yellow;
+width: 200px;
+height: 200px;
+position: relative;
+margin: 50px;
+}
+
+.background-color-child {
+  background-color: aqua;
+  background-image: url("img/donuts.svg");
+  background-size: 100px 100px;
+  width: 200px;
+  height: 200px;
+  top: 80px;
+  left: 80px;
+  position: absolute;
+}
+
+.linear-gradient {
+  width: 200px;
+  height: 200px;
+  background-image: linear-gradient(blue, black;);
+  margin: 50px;
+}
+
+.linear-gradient-1 {
+  width: 200px;
+  height: 200px;
+  background-image: linear-gradient(90deg; green, black;);
+  margin: 50px;
+}
+
+.linear-gradient-2 {
+  width: 200px;
+  height: 200px;
+  background-image: linear-gradient(to bottom right; green, aqua;);
+  margin: 50px;
+}
+
+.box-shadow {
+  width: 100px;
+  height: 100px;
+  border: solid green 1px;
+  box-shadow: 10px 15px 5px 1px gray;
+  margin: 30px;
+}
+
+.box-shadow-inset {
+  width: 100px;
+  height: 100px;
+  border: solid green 1px;
+  box-shadow: inset 20px 15px 5px 1px blue;
+  margin: 30px;
+  margin-bottom: 200px;
+}
+
+.transform-parent {
+  display: flex;
+  margin: 50px;
+}
+
+.translate-parent {
+ width: 300px;
+ height: 200px;
+  margin: 200px;
+  background-color: gray;
+  margin: 30px;
+  position: relative;
+}
+
+.translate-child {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border: 2px solid black;
+  top: 0;
+  left: 0;
+}
+
+.translate-child-1 {
+  transform: translate(100px; 100px;);
+}
+
+.translate-child-2 {
+  transform: translate(-800px; -60px;);
 }
